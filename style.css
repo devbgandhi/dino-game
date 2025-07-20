@@ -1,3 +1,4 @@
+
 @keyframes slideRight {
   from {
     background-position-x: 0;
@@ -15,7 +16,6 @@
   background-position-y: bottom; 
   height: 300px;
   width: 100%;
-
   animation: slideRight 3s infinite linear;
 }
 
@@ -26,7 +26,5 @@
     width: 60px;
     background-size: contain;
     background-repeat: no-repeat;
-
-    bottom: 20px;
-
+    bottom: 50px;
 }
