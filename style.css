@@ -1,0 +1,32 @@
+@keyframes slideRight {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -2000px; 
+  }
+}
+
+.desert {
+  position: absolute;
+  background-image: url("bg.png");
+  background-size: repeat-x;     
+  background-repeat: repeat-x;   
+  background-position-y: bottom; 
+  height: 300px;
+  width: 100%;
+
+  animation: slideRight 3s infinite linear;
+}
+
+.dino {
+    position: absolute;
+    background-image: url(dino0.png);
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    bottom: 20px;
+
+}
